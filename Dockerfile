@@ -12,7 +12,6 @@ RUN cd $JBOSS_HOME \
     && chmod +x $JBOSS_HOME/bin/*.sh \
     && rm teiid-$TEIID_VERSION-wildfly-dist.zip
     
-VOLUME ["$JBOSS_HOME/standalone", "$JBOSS_HOME/domain"]
 
 USER jboss
 
